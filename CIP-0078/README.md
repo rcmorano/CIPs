@@ -12,7 +12,7 @@ License: CC-BY-4.0
 
 # Abstract
 
-In a decentralized ecosystem a communication between wallet apps and dApps is still challanging. The inter-app communication on mobile devices does not directly allow remote procedure calls and is mostly resticed to Universal Links (iOS) or Deeplinks (Android). State-of-the-art solutions like WalletConnect tackle these problems using WebRTC communication which also works across devices, but requires a central signaling server (STUN or TURN server) to estalblish a WebRTC connection. In this CIP we want to introduce an architecture which uses WebTorrent trackers for peer discovery to remove the need of this central component. 
+In a decentralized ecosystem a communication between wallet apps and dApps is still challanging. The inter-app communication on mobile devices does not directly allow remote procedure calls and is mostly restriced to Universal Links (iOS) or Deeplinks (Android). State-of-the-art solutions like WalletConnect tackle these problems using WebRTC communication which also works across devices, but requires a central signaling server (STUN or TURN server) to estalblish a WebRTC connection. In this CIP we want to introduce an architecture which uses WebTorrent trackers for peer discovery to remove the need of this central component. 
 
 # Architecture
 
